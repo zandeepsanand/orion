@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.cards:hover .card__text {
+  bottom:0;
+}
+
+
+.card__text {
+  position: relative;
+  z-index: 1;
+  bottom: -1em;
+  margin: 2em;
+  padding: 1.7em 2em;
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.33));
+  border-radius: 1rem;
+  transition: all 450ms ease-in-out;
+  backdrop-filter: blur(5px);
+}
+.card__text h1 {
+  font-size: 1.4rem;
+  margin-bottom: 0.55em;
+}
+.card__text blockquote {
+  font-size: 1rem;
+  line-height: 1.2;
+}
